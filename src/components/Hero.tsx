@@ -65,7 +65,7 @@ export default function Hero() {
                    {cat.products.map(prod => (
                      <div key={prod.name} className="flex items-center justify-between gap-4 bg-slate-800/80 p-3 rounded-2xl hover:bg-slate-700 transition-colors border border-slate-700/50">
                         <span className="font-medium text-slate-100 ml-2">{prod.name}</span>
-                        <img src={prod.icon} alt={prod.name} className="w-12 h-16 object-cover object-center rounded-xl bg-slate-900 shadow-sm" />
+                        <img src={`${import.meta.env.BASE_URL}${prod.icon.slice(1)}`} alt={prod.name} className="w-12 h-16 object-cover object-center rounded-xl bg-slate-900 shadow-sm" />
                      </div>
                    ))}
                  </div>

@@ -1,0 +1,6 @@
+{
+  "name": "夢裡村",
+  "description": "夢裡村品牌官網 - 專為上班族設計的香氣保養體驗",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
